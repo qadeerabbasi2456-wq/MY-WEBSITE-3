@@ -1,0 +1,165 @@
+[11:05 am, 25/12/2025] Qadeer Abbasi: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pro Mobile Menu</title>
+
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: #0d6efd;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu-btn {
+            font-size: 26px;
+            cursor: pointer;
+        }
+
+        /* Ov…
+[11:23 am, 25/12/2025] Qadeer Abbasi: Copy code
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  
+    <meta charset="UTF-8">
+    <title>Nazeer Husain Magsi Welfare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Center Container */
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+  <img src= "sanpchat-1294472345.jpg">
+        /* Image Styling */
+        .welfare-img {
+            width: 100%;
+            max-width: 250px;
+            border-radius: 12px;
+            margin: 15px 0;
+        }
+
+        h1 {
+            color: black;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        /* Login Form */
+        input[type="text"], input[type="password"] {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+
+        button.login-btn {
+            width: 95%;
+            padding: 12px;
+            background-color: #0d6efd;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button.login-btn:hover {
+            background-color: #25D366;
+        }
+
+        /* Contact Buttons */
+        .contact-btns {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 15px;
+        }
+
+        .contact-btns a {
+            flex: 1;
+            margin: 5px;
+            text-decoration: none;
+            padding: 12px 0;
+            background-color: #25D366; /* WhatsApp Green */
+            color: white;
+            border-radius: 8px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .contact-btns a.call-btn {
+            background-color: #0d6efd; /* Call Blue */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container" id="loginPage">
+        <h1>Nazeer Husain Magsi Welfare</h1>
+        <img src="images/nazeer.jpg" alt="Nazeer Husain Magsi Welfare" class="welfare-img">
+        <p>Login karke aap apne doston aur rishtedaron ke liye sadqa aur khairat de sakte hain.</p>
+        <input type="text" id="username" placeholder="Username"><br>
+        <input type="password" id="password" placeholder="Password"><br>
+        <button class="login-btn" onclick="login()">Login</button>
+    </div>
+
+    <div class="container" id="homePage" style="display:none;">
+        <h1>Welcome!</h1>
+        <p>Aap apne doston aur rishtedaron ke liye jo bhi sadqa aur khairat dena chahte hain, is number par rabta karein:</p>
+        <p style="font-size:20px; font-weight:bold;">0316-1160009</p>
+
+        <div class="contact-btns">
+            <a href="https://wa.me/03161160009" target="_blank">WhatsApp</a>
+            <a href="tel:03161160009" class="call-btn">Call</a>
+        </div>
+    </div>
+
+    <script>
+        function login() {
+            // Simple login validation (demo purpose)
+            var user = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+
+            if(user && pass) {
+                document.getElementById('loginPage').style.display = 'none';
+                document.getElementById('homePage').style.display = 'block';
+            } else {
+                alert("Username aur password enter karein");
+            }
+        }
+    </script>
+
+</body>
+</html>
